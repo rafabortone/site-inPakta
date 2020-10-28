@@ -1,3 +1,6 @@
+<?php 
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,9 +9,11 @@
   <title>inPakta</title>
 </head>
 <body>
-  <header>
-    <h1>Inpakta</h1>
-  </header>
   
+
+  <?php include('../php/components/header.php')?>
+
+
+
 </body>
 </html>
