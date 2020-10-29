@@ -1,3 +1,24 @@
+@font-face{
+  font-family: VisbyCF-Bold;
+  src: url(../fonts/VisbyCF-Bold.otf);
+}
+@font-face{
+  font-family: VisbyCF-Medium;
+  src: url(../fonts/VisbyCF-Medium.otf);
+}
+@font-face{
+  font-family: VisbyCF-Light;
+  src: url(../fonts/VisbyCF-Light.otf);
+}
+.logo{
+  width: 100px;
+  height: 82px;
+  background-color: var(--blue01);
+  background:url(../assets/IconWithouText.svg) no-repeat top left;
+  background-size: 100px 82px;
+  
+}
+
 body {
   margin: 0;
   height: 100vh;

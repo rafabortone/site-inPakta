@@ -4,20 +4,23 @@
 
 <header>
   <div class="header-container">
-    <div class="header-logo"></div>
+     <i class="logo"></i>
     <nav>
       <ul class="header-links">
-        <li>
-          <a href="#">menu 1</a>
+        <li checked>
+          <a href="#">HOME</a>
         </li>
          <li>
-          <a href="#">menu 1</a>
+          <a href="#">NOSSA HISTÓRIA</a>
         </li>
          <li>
-          <a href="#">menu 1</a>
+          <a href="#">BLOG</a>
         </li>
          <li>
-          <a href="#">menu 1</a>
+          <a href="#">CONTATO</a>
+        </li>
+        <li href="#">
+            <a href="#">Acessar Centro de privacidade></a>
         </li>
       </ul>
     </nav>
