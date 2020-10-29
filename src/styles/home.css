@@ -1,0 +1,41 @@
+.home-page{
+    width: 100%;
+    height: 100%;
+    background-color:#ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.first-section{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.first-section-container{
+    display: flex;
+    flex-direction: column;
+    padding: 90px 10px 40px 120px;
+    margin-top: 45px;
+    max-width: 50%;
+    width: 100%;
+    height: 60%;
+    color: white;
+    background-color: var(--blue01);
+}
+
+.first-section-container h1{
+    text-align: left;
+    font-size: 10em;
+    margin:0;
+}
+.first-section-container h2{
+    text-align: left;
+    font-size: 5em;
+    margin:0;
+}
+.second-section{
+    background-color: red;
+}

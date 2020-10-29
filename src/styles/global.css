@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  font-size: 62%;
+
+  --blue01: #2f81f8;
+  --blue02: #2bc6fc;
+  --cyano01: #0fb3ce;
+  --cyano02: #20edd9;
+  --green01: #12dd7c;
+  --green02: #2ff895;
+
+}
+h1,h2,h3,h4,h5 p {
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
+}
+
+
