@@ -4,10 +4,14 @@
 
 <header>
   <div class="header-container">
-     <i class="logo"></i>
+    
+    <div class="header-logo">
+      <?php include('logo.php')?>
+    </div> 
     <nav>
+    
       <ul class="header-links">
-        <li checked>
+        <li >
           <a href="#">HOME</a>
         </li>
          <li>
@@ -17,10 +21,10 @@
           <a href="#">BLOG</a>
         </li>
          <li>
-          <a href="#">CONTATO</a>
+          <a href="#">Contato</a>
         </li>
-        <li href="#">
-            <a href="#">Acessar Centro de privacidade></a>
+        <li >
+          <a href="#">Acessar Centro de privacidade</a>
         </li>
       </ul>
     </nav>

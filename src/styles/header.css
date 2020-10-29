@@ -14,15 +14,16 @@ header{
   width: 100%;
   max-width: 1440px;
   background-color: white;
-  align-content: flex-end;
-  justify-content: space-between;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-container nav {
     display: flex;
     justify-content: center;
     height: 100%;
+    width: 70%;
 }
 
 .header-container ul {
@@ -58,9 +59,19 @@ header{
     color: aliceblue;
     width: 100%;
     text-align: center;
-    text-justify: auto;
     text-decoration:none;
     font-family: VisbyCF-Medium;
     font-size: 1.4em;
+}
+
+.header-logo {
+
+}
+
+.header-logo svg{
+  width: 100px;
+  height: 82px;
+ fill: var(--blue01);
+  
 }
 
