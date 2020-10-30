@@ -8,7 +8,7 @@ window.onload = function () {
         offset : 100,
         classes: {
           initial: "headroom",
-          pinned: "header--fixed",
+          pinned: "header--pined",
           unpinned: "header--unpinned",
           top: 'header--top',
           notTop: 'header--float',
