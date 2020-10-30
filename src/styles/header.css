@@ -48,7 +48,11 @@ header{
     align-items: center;
     justify-items: center;
     cursor:pointer;
-    
+    transition: 0.3s;
+}
+
+.header-links li:hover{
+    background-color: var(--green01);
 }
 
 .header-links a{
@@ -72,6 +76,11 @@ header{
   width: 100px;
   height: 82px;
  fill: var(--blue01);
-  
+  transition: 0.3s;
 }
-
+.header-logo svg:hover{
+    width: 100px;
+    height: 82px;
+   fill: var(--green01);
+    
+  }

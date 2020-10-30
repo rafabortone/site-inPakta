@@ -9,4 +9,7 @@
     <section class="second-section">
         <?php include('homeSections/second.php')?>
     </section>
+    <section class="third-section">
+        <?php include('homeSections/terceiro.php')?>
+    </section>
 </div>

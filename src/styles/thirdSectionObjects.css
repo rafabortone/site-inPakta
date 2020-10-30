@@ -1,0 +1,49 @@
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.card-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    color: black;
+    transition: 0.4s;
+}
+.card-container:hover{
+    cursor: pointer;
+    background-color: var(--blue01);
+    border:none;
+    box-shadow: -7px -2px 4px -1px rgba(0,0,0,0.75);
+    color: white;
+}
+.card-container img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.icon-funcionalidade{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.card-container h2{
+    margin-top: 20px;
+    font-family: VisbyCF-Medium;
+    font-size: 2em;
+    
+}
+
+.card-container h5{
+    font-family: VisbyCF-Light;
+    font-size: 1em;
+}
