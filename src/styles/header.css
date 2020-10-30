@@ -1,18 +1,30 @@
 header{
+    position: relative;
     background-color: black;
     width: 100%;
     height:120px;
     display:flex;
     justify-content: center;
-    position: fixed;
-    top:0;
-    transition: all ease 1.1s;
-    z-index: +1; 
+    box-shadow: 0 1px 4px rgba(158, 158, 158, 0.15);
+}
+
+.header--float {
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.20);
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  transition: 1s;
+}
+
+.header--fixed {
+  transform: none;
+  transition: 1s;
 }
 
 .header-container {
   width: 100%;
-  max-width: 1440px;
   background-color: white;
   display: flex;
   align-items: center;
@@ -22,8 +34,9 @@ header{
 .header-container nav {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 70%;
+    width: 100%;
 }
 
 .header-container ul {
@@ -42,17 +55,15 @@ header{
 .header-links li{
     height: 50px;
     background-color: var(--blue01);
-    width: 150px;
     list-style-type: none;
     display: flex;
+    width: 100%;
+    margin: 0 10px;
     align-items: center;
     justify-items: center;
     cursor:pointer;
-    transition: 0.3s;
-}
-
-.header-links li:hover{
-    background-color: var(--green01);
+    padding: 0 20px;
+    
 }
 
 .header-links a{
@@ -69,7 +80,8 @@ header{
 }
 
 .header-logo {
-
+   width: 100px;  
+   height: 82px;
 }
 
 .header-logo svg{

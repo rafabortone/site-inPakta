@@ -2,14 +2,12 @@
 <!--Importação do estilo do HEADER-->
 <link rel="stylesheet" type="text/css" href="./styles/header.css">
 
-<header>
+<header class="header">
   <div class="header-container">
-    
-    <div class="header-logo">
-      <?php include('logo.php')?>
-    </div> 
     <nav>
-    
+      <div class="header-logo">
+        <?php include('logo.php')?>
+      </div> 
       <ul class="header-links">
         <li >
           <a href="#">HOME</a>
