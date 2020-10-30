@@ -7,7 +7,7 @@ header{
 }
 
 .header--float {
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .header-container {

@@ -5,7 +5,7 @@ window.onload = function () {
 (function() {
     var header = new Headroom(document.querySelector(".header-container"), {
         tolerance: 5,
-        offset : 100,
+        offset : 10,
         classes: {
           initial: "headroom",
           pinned: "header--pined",

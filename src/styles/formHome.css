@@ -1,9 +1,37 @@
-.container-card{
+.container-form{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    justify-items: center;
+    flex-direction: column;
+    justify-items: space-evenly;
     height: 100%;
-    width: 100%;
-    
+    width: 50%;
+    align-self: center;
+}
+
+.container-form input{
+    height: 20px;
+    border:none;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: var(--blue02);
+    font-family: VisbyCF-Medium;
+    font-size: 2em;
+    color:white;
+}
+
+.container-form button{
+    background-color: var(--blue02);
+    color:white;
+    border:none;
+    align-self: center;
+    border-radius: 10px ;
+    width: 50%;
+    margin-top: 20px;
+    font-family: VisbyCF-Medium;
+    font-size: 1.2em;
+    height: 50px;
+    margin-bottom: 30px;
+    margin: none;
+}
+.container-form input:focus{
+    outline: none;
 }

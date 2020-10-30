@@ -12,4 +12,7 @@
     <section class="third-section">
         <?php include('homeSections/terceiro.php')?>
     </section>
+    <section class="third-section">
+        <?php include('homeSections/quarto.php')?>
+    </section>
 </div>
