@@ -1,8 +1,6 @@
 
 .home-page{
     width: 100%;
-    
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,4 +112,15 @@
     text-align: center;
     color: var(--blue01);
     margin-bottom: 40px;
+}
+
+.quarto-section{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+
 }

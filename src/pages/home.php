@@ -6,13 +6,17 @@
     <section class="first-section">
         <?php include('homeSections/first.php')?>
     </section>
+
     <section class="second-section">
         <?php include('homeSections/second.php')?>
     </section>
+
     <section class="third-section">
         <?php include('homeSections/terceiro.php')?>
     </section>
-    <section class="third-section">
+
+    <section class="quarto-section">
         <?php include('homeSections/quarto.php')?>
     </section>
+    
 </div>
