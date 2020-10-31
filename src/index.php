@@ -16,7 +16,7 @@
   
 
   <?php include('components/header.php')?>
-
+  <div class="ajuste-header"></div>
   <?php 
     include('pages/home.php');
   ?>

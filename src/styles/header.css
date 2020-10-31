@@ -1,14 +1,20 @@
+.ajuste-header {
+  width: 100%;
+  height:120px;
+}
 .header{
   width: 100%;
   height:120px;
   display:flex;
   justify-content: center;
   position: fixed;
+  box-shadow: 0 1px 4px rgba(158, 158, 158, 0.15);
+  z-index: 20;
 }
 
 .header-container {
-  box-shadow: 0 1px 4px rgba(158, 158, 158, 0.15);
   width: 100%;
+  max-width: 1440px;
   height: 120px;
   background-color: white;
   display: flex;
@@ -69,6 +75,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header-logo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .header-container nav {
     position: fixed;
     height: 100%;
@@ -130,6 +143,6 @@
     align-items: center;
   }
   .header-container {
-    height: 100%;
+    align-items: center;
   }
 }
