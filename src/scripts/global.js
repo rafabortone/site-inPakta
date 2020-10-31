@@ -1,9 +1,5 @@
-window.onload = function () {
-  console.log('opaaaa');
-}
-
 (function() {
-    var header = new Headroom(document.querySelector(".header-container"), {
+    var header = new Headroom(document.querySelector(".header"), {
         tolerance: 5,
         offset : 10,
         classes: {

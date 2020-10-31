@@ -4,10 +4,10 @@
 
 <header class="header">
   <div class="header-container">
+    <div class="header-logo">
+      <?php include('logo.php')?>
+    </div> 
     <nav>
-      <div class="header-logo">
-        <?php include('logo.php')?>
-      </div> 
       <ul class="header-links">
         <li >
           <a href="#">HOME</a>
@@ -28,3 +28,5 @@
     </nav>
   </div>  
 </header>
+
+<script type="text/javascript" src="../scripts/header.js"></script>
