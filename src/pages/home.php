@@ -2,21 +2,18 @@
 <!--Importação do estilo do HEADER-->
 <link rel="stylesheet" type="text/css" href="./styles/home.css">
 
-<div class="home-page">
-    <section class="first-section">
+<section class="home-page">
+
+    <div class="first-section container">
         <?php include('homeSections/first.php')?>
-    </section>
+    </div>
 
-    <section class="second-section">
+    <div class="second-section container">
         <?php include('homeSections/second.php')?>
-    </section>
+    </div>
 
-    <section class="third-section">
+    <div class="third-section container">
         <?php include('homeSections/terceiro.php')?>
-    </section>
+    </div>
 
-    <section class="quarto-section">
-        <?php include('homeSections/quarto.php')?>
-    </section>
-    
-</div>
+</section>
