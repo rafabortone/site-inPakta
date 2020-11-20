@@ -21,7 +21,7 @@
          <li>
           <a href="#">Produtos</a>
         </li>
-        <li >
+        <li>
           <a href="#">Acessar Centro de privacidade</a>
         </li>
       </ul>

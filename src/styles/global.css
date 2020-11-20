@@ -24,7 +24,6 @@ body {
   margin: 0;
 	overflow-x: hidden;
   font-family: VisbyCF-Light;
-  height: 100vh;
   --blue01: #2f81f8;
   --blue02: #2bc6fc;
   --cyano01: #0fb3ce;
@@ -56,7 +55,7 @@ section {
   width: 100%;
   max-width: 1440px;
   padding: 0 16px;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 h1,h2,h3,h4,h5,p {
