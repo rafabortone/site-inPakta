@@ -1,7 +1,5 @@
 
-<!--Importação do estilo do HEADER-->
 <link rel="stylesheet" type="text/css" href="./styles/home.css">
-
 <section class="home-page">
 
     <div class="first-section container">

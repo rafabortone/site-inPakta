@@ -30,8 +30,10 @@
 .footer-form {
   width: 100%;
   display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
+  padding: 0 16px;
 }
 
 .footer-form h1 {
@@ -60,36 +62,49 @@
     width: 100%;
     max-width: 450px;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .container-form input{
     width: 100%;
     border:none;
-    padding: 25px;
     border-radius: 5px;
     background-color: var(--blue02);
     font-family: VisbyCF-Medium;
-    font-size: 1.4em;
     color:white;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .container-form button{
     background-color: var(--blue02);
     color:white;
     border:none;
-    padding: 25px;
+    text-transform: uppercase;
     border-radius: 5px ;
     width: 100%;
     max-width: 250px;
     font-family: VisbyCF-Medium;
-    margin-bottom: 30px;
     margin: none;
 }
 .container-form input:focus{
     outline: none;
 }
 
+
+@media screen and (max-width: 768px) {
+  .container-form input, .container-form button{
+    padding: 18px;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+   .container-form input, .container-form button{
+    padding: 25px;
+    font-size: 16px;
+  }
+}
 
 ::-webkit-input-placeholder {
    color: #fff;

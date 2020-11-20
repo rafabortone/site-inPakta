@@ -19,7 +19,7 @@
           <a href="#">BLOG</a>
         </li>
          <li>
-          <a href="#">Contato</a>
+          <a href="#">Produtos</a>
         </li>
         <li >
           <a href="#">Acessar Centro de privacidade</a>
