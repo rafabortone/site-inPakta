@@ -9,10 +9,10 @@
     </div> 
     <nav>
       <ul class="header-links">
-        <li >
+        <li class="home active">
           <a href="#">HOME</a>
         </li>
-         <li>
+         <li class="historia"> 
           <a href="#">NOSSA HISTÓRIA</a>
         </li>
          <li>

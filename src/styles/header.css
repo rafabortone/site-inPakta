@@ -34,27 +34,42 @@
 }
 
 .header-links li{
-    background-color: var(--blue01);
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-items: center;
-    cursor:pointer;
-    text-transform: uppercase;
-    height: 50px;
+  background-color: var(--blue01);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  cursor:pointer;
+  text-transform: uppercase;
+  height: 50px;
+}
+
+.header-links li{
+  background-color: var(--blue01);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+  cursor:pointer;
+  text-transform: uppercase;
+  height: 50px;
 }
 
 .header-links a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: aliceblue;
-    width: 100%;
-    text-align: center;
-    text-decoration:none;
-    font-family: VisbyCF-Medium;
-    font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: aliceblue;
+  width: 100%;
+  text-align: center;
+  text-decoration:none;
+  font-family: VisbyCF-Medium;
+  font-size: 14px;
+}
+
+.header-links .active {
+  background-color: var(--green01);
 }
 
 .header-logo {

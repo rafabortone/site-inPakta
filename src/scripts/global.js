@@ -14,3 +14,13 @@
     });
     header.init();
 }());
+
+$(document).ready(function () {
+  $('.header-links li').click(function () {
+    $('.header-links li').removeClass('active');
+    const classe = $(this).attr("class")
+    $('.index .content').addClass('hiden');
+    $('#section-' + classe).removeClass('hiden');
+    $(this).addClass('active');
+  })
+})

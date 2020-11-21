@@ -17,13 +17,21 @@
   <?php include('components/header.php')?>
   <div class="ajuste-header"></div>
   
-  <?php 
-    include('pages/home.php');
-  ?>
+  <div class="index">
 
-  <?php 
-    include('pages/historia.php');
-  ?>
+    <div class="content" id="section-home">
+      <?php 
+        include('pages/home.php');
+      ?>
+    </div>
+
+    <div class="content hiden" id="section-historia">
+      <?php 
+        include('pages/historia.php');
+      ?>
+    </div>
+    
+  </div>
 
   <?php
     include('components/footer.php');
