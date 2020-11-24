@@ -22,5 +22,6 @@ $(document).ready(function () {
     $('.index .content').addClass('hiden');
     $('#section-' + classe).removeClass('hiden');
     $(this).addClass('active');
+    $('html,body').scrollTop(0);
   })
 })

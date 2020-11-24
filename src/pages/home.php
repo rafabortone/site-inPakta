@@ -6,7 +6,7 @@
         <?php include('homeSections/first.php')?>
     </div>
 
-    <div class="second-section container">
+    <div class="second-section">
         <?php include('homeSections/second.php')?>
     </div>
 

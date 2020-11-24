@@ -10,16 +10,16 @@
     <nav>
       <ul class="header-links">
         <li class="home active">
-          <a href="#">HOME</a>
+          <a href="#">home</a>
         </li>
          <li class="historia"> 
-          <a href="#">NOSSA HISTÓRIA</a>
+          <a href="#">nossa história</a>
         </li>
          <li>
-          <a href="#">BLOG</a>
+          <a href="#">blog</a>
         </li>
          <li>
-          <a href="#">Produtos</a>
+          <a href="#">produtos</a>
         </li>
         <li>
           <a href="#">Acessar Centro de privacidade</a>

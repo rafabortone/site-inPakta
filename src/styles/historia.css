@@ -40,24 +40,6 @@
     background-color: white;
 }
 
-.second-section-container{
-    max-width:500px;
-    width: 100%;
-    text-align: center;
-}
-
-.second-section-container h1 {
-  color: var(--blue01);
-  font-weight: bold;
-  font-family: VisbyCF-Medium;
-}
-
-.second-section-container h5{
-    font-family: VisbyCF-Light;
-    color: #000;
-    margin-top: 20px;
-}
-
 .third-section-container{
     display: flex;
     justify-content: center;
