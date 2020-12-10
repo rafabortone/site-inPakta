@@ -15,3 +15,5 @@
     </div>
 
 </section>
+
+<script type="text/javascript" src="../scripts/home.js"></script>

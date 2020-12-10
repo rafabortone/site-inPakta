@@ -6,8 +6,12 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="apple-mobile-web-app-status-bar-style", content="black-translucent">
   <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/slick.css">
+  <link rel='stylesheet' href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/headroom.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
 
   <title>inPakta</title>
 </head>

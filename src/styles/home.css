@@ -74,6 +74,7 @@
   color: white;
   background-color: white;
   text-align: center;
+  padding:50px 0;
 }
 .third-section{
   display: flex;
@@ -92,6 +93,7 @@
 
 .cards-list {
   display: flex;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -100,11 +102,12 @@
   color: #000;
   border-radius: 10px ;
   padding: 40px 30px;
-  display: flex;
+  display: flex!important;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   min-height: 500px;
+  width: 300px;
 }
 
 .circle-image {
@@ -152,6 +155,9 @@
   h5{ 
     font-size: 16px;
   }
+  .card-content {
+    margin: 0 10px;
+  }
   
 }
 
@@ -172,12 +178,11 @@
   .first-section-container-text h5 {
     font-size: 30px;
   }
+}
 
+@media screen and (min-width: 1025px) {
   .cards-list { 
     max-width: 80%;
     margin: auto;
-  }
-  .card-content { 
-    max-width: 250px;
   }
 }
