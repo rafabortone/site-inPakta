@@ -26,13 +26,13 @@
          <li>
           <a href="#">produtos</a>
         </li>
-<<<<<<< HEAD
         <li id="acesso">
-          <a href="#">Acessar Centro de privacidade</a>
-=======
+
         <li>
           <a href="#">Acessar sua conta</a>
->>>>>>> 878b8571d98e34ef03950eae449f26288603ea93
+
+        <li id="acesso">
+          <a href="#">Acessar sua conta</a>
         </li>
       </ul>
     </nav>

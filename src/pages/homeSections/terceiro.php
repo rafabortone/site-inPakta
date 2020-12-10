@@ -3,18 +3,37 @@
 
 <div class="third-section-container">
 
-    <h1>Funcionalidades</h1>
-    <div class='container-card'>
-        <div class="card-container">
-            <img src="https://mappinglondon.co.uk/wp-content/uploads/2016/06/forcelondon_1.png">
-            <h2>inDiscovery</h2> 
-        </div>
-       
-        <div class="card-container">
-          <img src="https://mappinglondon.co.uk/wp-content/uploads/2016/06/forcelondon_1.png">
-          <h2>inManager</h2> 
-        </div>
-      
+    <div class="title">
+        <h1>nossas soluções para proteger você</h1>
+    </div>
+    <div class='cards-wrapper'>
+        <ul class='cards-list'>
+          <li class="card-content">
+            <div class="circle-image">
+              <img src="../assets/inmanager.png"/>
+            </div>
+            <h2>inManager</h2> 
+            <p>Crie um Centro de Privacidade customizado em poucas etapas para que seus clientes possam fazer solicitações downloads, exclusão de dados, além de gerenciar o consentimento do uso de dados pessoais.</p>
+            <button>saiba mais</buton>
+          </li>
+          <li class="card-content">
+            <div class="circle-image">
+              <img src="../assets/monitoramento.png"/>
+            </div>
+            <h2>Monitoramento contínuo</h2> 
+            <p>Monitore automaticamente todos os sistemas que possuem dados pessoais armazenados, identificando atividades suspeitas e garantindo elevados padrões de segurança por todos os setores da sua empresa.</p>
+            <button>saiba mais</buton>
+          </li>
+          <li class="card-content">
+            <div class="circle-image">
+              <img src="../assets/indiscovery.png"/>
+            </div>
+            <h2>Data Discovery</h2> 
+            <p>Você poderá descobrir e classificar todos os dados pessoais em seus bancos de dados, clouds e computadores, identificando riscos com poucos cliques.</p>
+            <button>saiba mais</buton>
+            <div class="card-overlay"></div>
+          </li>
+        </ul>
     
     </div>
 </div>
