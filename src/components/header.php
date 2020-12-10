@@ -4,9 +4,14 @@
 
 <header class="header">
   <div class="header-container">
-    <div class="header-logo">
-      <?php include('logo.php')?>
-    </div> 
+    <div class="header-icons">
+      <div class="header-icon-menu">
+        <?php include('./assets/menu.php')?>
+      </div>
+      <div class="header-logo">
+        <?php include('logo.php')?>
+      </div> 
+    </div>
     <nav>
       <ul class="header-links">
         <li class="home active">
@@ -22,7 +27,7 @@
           <a href="#">produtos</a>
         </li>
         <li>
-          <a href="#">Acessar Centro de privacidade</a>
+          <a href="#">Acessar sua conta</a>
         </li>
       </ul>
     </nav>
