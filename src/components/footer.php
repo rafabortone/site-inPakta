@@ -86,5 +86,6 @@ if(isset($_GET['contato'])){
     <div class="footer-sociais">
       <?php include('sociais.php') ?>
     </div>
+    
   </div>
 </footer>
