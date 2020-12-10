@@ -1,17 +1,17 @@
 <ul>
   <li id="facebook">
+    <a href="https://www.facebook.com/InPakta" target="_blank">
       <?php include('icons/icon-facebook.php')?>
-  </li>
-  <li id="twitter">
-      <?php include('icons/icon-twitter.php')?>
-  </li>
-  <li id="instagram">
-      <?php include('icons/icon-instagram.php')?>
-  </li>
-  <li id="youtube">
-      <?php include('icons/icon-youtube.php')?>
+    </a>
   </li>
   <li id="linkedin">
+    <a href="https://www.linkedin.com/company/inpakta/" target="_blank">
       <?php include('icons/icon-linkedin.php')?>
+    </a>
+  </li>
+  <li id="instagram">
+    <a href="https://www.instagram.com/inpakta/" target="_blank">
+      <?php include('icons/icon-instagram.php')?>
+    </a>
   </li>
 </ul>

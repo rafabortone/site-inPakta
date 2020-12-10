@@ -2,15 +2,15 @@
 <link rel="stylesheet" type="text/css" href="./styles/home.css">
 <section class="home-page">
 
-    <div class="first-section container">
+    <div class="first-section container" id="inpakta">
         <?php include('homeSections/first.php')?>
     </div>
 
-    <div class="second-section">
+    <div class="second-section" id="missao">
         <?php include('homeSections/second.php')?>
     </div>
 
-    <div class="third-section container">
+    <div class="third-section container" id="solucoes">
         <?php include('homeSections/terceiro.php')?>
     </div>
 

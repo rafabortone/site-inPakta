@@ -23,3 +23,7 @@ $(document).ready(function(){
     }
   }
 })
+
+$('.card-content button').click(function(){
+  window.location = window.location.href = '/#contato' 
+})

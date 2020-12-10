@@ -21,7 +21,7 @@ if(isset($_GET['contato'])){
 <!--Importação do estilo do HEADER-->
 <link rel="stylesheet" type="text/css" href="./styles/footer.css">
 
-<div class="footer-form-container">
+<div class="footer-form-container" id="contato">
   <div class="footer-form">
     <div class="footer-menu-contat">
       <h1>Venha bater um papo com nós</h1>
@@ -49,27 +49,27 @@ if(isset($_GET['contato'])){
   <div class="footer-wrapper">
     <div class="footer-menu">
       <ul class="footer-links">
-        <li>
-          <a>A InPakta</a>
+        <li class="home">
+          <a href="#inpakta">A InPakta</a>
         </li>
-        <li>
-          <a>Missão</a>
+        <li class="home">
+          <a href="#missao">Missão</a>
         </li>
-        <li>
-          <a>Soluções</a>
+        <li class="home">
+          <a href="#solucoes">Soluções</a>
         </li>
       </ul>
     </div>
     <div class="footer-menu">
       <ul class="footer-links">
-        <li>
-          <a>Nossa História</a>
+        <li class="historia">
+          <a href="#historia">Nossa História</a>
+        </li>
+        <li class="historia">
+          <a href="#conquistas">Conquistas</a>
         </li>
         <li>
-          <a>Conquistas</a>
-        </li>
-        <li>
-          <a>Contato</a>
+          <a href="#contato">Contato</a>
         </li>
       </ul>
     </div>
@@ -79,7 +79,7 @@ if(isset($_GET['contato'])){
           <a>Blog</a>
         </li>
         <li>
-          <a>Newsletter</a>
+          <a href="#contato">Newsletter</a>
         </li>
       </ul>
     </div>

@@ -1,15 +1,15 @@
 <link rel="stylesheet" type="text/css" href="./styles/historia.css">
 <section class="historia-page">
 
-    <div class="historia-first-section container">
+    <div class="historia-first-section container" id="historia">
       <?php include('historiaSections/first.php')?>
     </div>
 
-    <div class="historia-second-section ">
+    <div class="historia-second-section " >
       <?php include('historiaSections/second.php')?>
     </div>
 
-    <div class="historia-third-section container">
+    <div class="historia-third-section container" id="conquistas">
       <?php include('historiaSections/terceiro.php')?>
     </div>
 

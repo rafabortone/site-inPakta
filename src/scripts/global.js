@@ -24,4 +24,13 @@ $(document).ready(function () {
     $(this).addClass('active');
     $('html,body').scrollTop(0);
   })
+
+  $('.footer-links li').click(function () {
+    const classe = $(this).attr("class")
+    $('.index .content').addClass('hiden');
+    $('#section-' + classe).removeClass('hiden');
+
+    $('.header-links li').removeClass('active');
+    $('.header-links .'+ classe).addClass('active');
+  })
 })

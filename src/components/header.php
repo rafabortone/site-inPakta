@@ -24,7 +24,7 @@
           <a href="#">blog</a>
         </li>
          <li>
-          <a href="#">produtos</a>
+          <a href="#contato">contato</a>
         </li>
         <li id="acesso">
           <a href="#">Acessar sua conta</a>
