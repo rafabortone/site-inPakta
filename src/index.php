@@ -12,7 +12,6 @@
   <title>inPakta</title>
 </head>
 <body>
-  
 
   <?php include('components/header.php')?>
   <div class="ajuste-header"></div>

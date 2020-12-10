@@ -1,6 +1,6 @@
 .footer-container{
     padding: 40px;
-    background-color: var(--blue01);
+    background-color: var(--blue02);
     width: 100%;
 }
 
@@ -18,13 +18,55 @@
   justify-content: center;
 }
 
-.footer-contato h1 {
-  color: #fff;
+.footer-menu-contat h1 {
+  color: #fff !important;
+  font-size: 40px;
   font-family:VisbyCF-Medium ;
 
 }
-.footer-menu {
 
+.footer-menu-contat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 165px 195px;
+  width: 100%;
+  
+}
+
+.footer-menu h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+.footer-form-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: var(--blue01);
+  color: white;
+}
+
+.footer-form-container li{
+  width: 80px;
+  height: 80px;
+}
+
+#redes-sociais{
+  margin-top: 60px;
+}
+
+.footer-menu-contat ul{
+  display: flex;
+}
+.footer-menu-contat h1,p{
+  text-align: left;
+
+}
+.footer-form-container .svg{
+  width: 100%;
 }
 
 .footer-form {
@@ -33,7 +75,9 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
+  
   padding: 0 16px;
+  
 }
 
 .footer-form h1 {
@@ -58,21 +102,31 @@
 .container-form{
     display: flex;
     flex-direction: column;
+    float: left;
     height: 100%;
     width: 100%;
     max-width: 450px;
     align-items: center;
     margin-bottom: 30px;
+    justify-content: center;
 }
-
+.container-form input,textarea{
+  border: none;
+  width: 100%;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+  color:white;
+  font-family: VisbyCF-Medium;
+  font-size: 0.8em !important;
+  margin-bottom: 40px;
+}
 .container-form input{
-    width: 100%;
-    border:none;
-    border-radius: 5px;
-    background-color: var(--blue02);
-    font-family: VisbyCF-Medium;
-    color:white;
-    margin-bottom: 18px;
+  width: 45% !important;
+}
+.inputgroup{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .container-form button{
@@ -81,8 +135,9 @@
     border:none;
     text-transform: uppercase;
     border-radius: 5px ;
-    width: 100%;
-    max-width: 250px;
+    
+    width: 134px;
+    height: 36px;
     font-family: VisbyCF-Medium;
     margin: none;
 }
@@ -101,8 +156,8 @@
 
 @media screen and (min-width: 769px) {
    .container-form input, .container-form button{
-    padding: 25px;
-    font-size: 16px;
+    padding: 16px;
+    font-size: 15px;
   }
 }
 
