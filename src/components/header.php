@@ -27,11 +27,6 @@
           <a href="#">produtos</a>
         </li>
         <li id="acesso">
-
-        <li>
-          <a href="#">Acessar sua conta</a>
-
-        <li id="acesso">
           <a href="#">Acessar sua conta</a>
         </li>
       </ul>

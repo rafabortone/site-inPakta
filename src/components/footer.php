@@ -23,35 +23,15 @@ if(isset($_GET['contato'])){
 
 <div class="footer-form-container">
   <div class="footer-form">
-  <div class="footer-menu-contat">
-    <h1>Venha bater um papo com nós</h1>
-    <p>fone 00000-0000</p>
-    <p>Email: contato@inpakta.com.br</p>
-    
-
-    <p id="redes-sociais">nos acompanhe nas redes sociais</p>
-    <ul>
-
-      <li id="facebook">
-        <?php include('icons/icon-facebook.php')?>
-      </li>
-      <li id="twitter">
-        <?php include('icons/icon-twitter.php')?>
-      </li>
-      <li id="instagram">
-        <?php include('icons/icon-instagram.php')?>
-      </li>
-      <li id="youtube">
-        <?php include('icons/icon-youtube.php')?>
-      </li>
-      <li id="linkedin">
-        <?php include('icons/icon-linkedin.php')?>
-      </li>
-    </ul>
-  </div>
+    <div class="footer-menu-contat">
+      <h1>Venha bater um papo com nós</h1>
+      <p>fone 00000-0000</p>
+      <p>Email: contato@inpakta.com.br</p>
+      <p id="redes-sociais">nos acompanhe nas redes sociais</p>
+      <?php include('sociais.php') ?>
+    </div>
   </div>
   <div class="footer-form">
-      
       <form class='container-form' method="POST" action="?contato">
         <div class="inputgroup">
           <input id="Nome" name="Nome"  type="text"  required placeholder="Nome"/>
@@ -70,16 +50,13 @@ if(isset($_GET['contato'])){
     <div class="footer-menu">
       <ul class="footer-links">
         <li>
-          <a>Sobre nós</a>
+          <a>A InPakta</a>
         </li>
         <li>
-          <a>Porque a InPalta</a>
+          <a>Missão</a>
         </li>
         <li>
-          <a>Nossos Serviços</a>
-        </li>
-        <li>
-          <a>Precificação</a>
+          <a>Soluções</a>
         </li>
       </ul>
     </div>
@@ -92,31 +69,22 @@ if(isset($_GET['contato'])){
           <a>Conquistas</a>
         </li>
         <li>
-          <a>Nossos Serviços</a>
-        </li>
-        <li>
-          <a>Precificação</a>
+          <a>Contato</a>
         </li>
       </ul>
     </div>
     <div class="footer-menu">
       <ul class="footer-links">
         <li>
-          <a>Sobre nós</a>
+          <a>Blog</a>
         </li>
         <li>
-          <a>Porqu a InPalta</a>
-        </li>
-        <li>
-          <a>Nossos Serviços</a>
-        </li>
-        <li>
-          <a>Precificação</a>
+          <a>Newsletter</a>
         </li>
       </ul>
     </div>
-    <div class="footer-contato">
-      <h1>whatsapp?</h1>
+    <div class="footer-sociais">
+      <?php include('sociais.php') ?>
     </div>
   </div>
 </footer>

@@ -25,26 +25,26 @@
 .first-section-container-text h1{
   text-align: left;
   margin:0;
-  font-family: VisbyCF-Medium;
 }
 
 .first-section-container-text h5{
   text-align: left;
-  font-family: VisbyCF-Light;
   margin-top: 30px;
+  font-weight: 400;
 }
 
-.second-section{
+.second-section {
   display: flex;
   width: 100%;
   min-height: 100vh;
   justify-content: center;
   align-items: center;
   background-color: white;
-  background: url('../assets/dados-background.jpg');
+  background: url('../assets/dados-background2.png');
   background-repeat: no-repeat;
   background-position: center;
   text-shadow: 0 0 8px rgba(0,0,0,0.8) ;
+  padding: 0 16px;
 }
 
 .second-section-container{
@@ -56,14 +56,14 @@
 .second-section-container h1 {
   color: #fff;
   font-weight: bold;
-  font-family: VisbyCF-Medium;
 }
 
 .second-section-container h5{
-  font-family: VisbyCF-bold;
   color: #fff;
   font-weight: bold;
   margin-top: 20px;
+  text-align: justify;
+  font-weight: 400;
 }
 
 .third-section-container{
@@ -82,10 +82,10 @@
   align-items: center;
 }
 .third-section-container h1{
-  font-family: VisbyCF-Medium;
   text-align: center;
-  color: var(--blue01);
+  color: #404040;
   margin-bottom: 40px;
+  font-size: 40px;
 }
 .cards-wrapper {
   width: 100%;
@@ -126,19 +126,19 @@
 }
 
 .card-content h2 {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   color: var(--blue01);
-  font-family:VisbyCF-Bold ;
   line-height: 18px;
 }
 .card-content p {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 400;
   line-height: 18px;
 }
 .card-content button {
   background-color: var(--blue02);
+  font-size: 16px;
   border: none;
   border-radius: 50px;
   padding: 10px 20px;
@@ -157,6 +157,9 @@
   }
   .card-content {
     margin: 0 10px;
+  }
+  .second-section-container h1 { 
+    text-align: left;
   }
   
 }
@@ -177,6 +180,20 @@
 
   .first-section-container-text h5 {
     font-size: 30px;
+  }
+
+  .second-section-container h1 {
+    font-size:70px;
+    line-height: 70px ;
+    margin-bottom: 60px;
+  }
+
+  .second-section-container h5 {
+    font-size:30px;
+    line-height: 50px ;
+  }
+  .second-section { 
+    background-size: 120%;
   }
 }
 
