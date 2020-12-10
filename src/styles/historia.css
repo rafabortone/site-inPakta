@@ -1,41 +1,64 @@
 .historia-first-section{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-repeat: no-repeat;
 }
-
+.historia-container-img {
+  height: 400px;
+}
 .historia-first-section-container{
     display: flex;
     width: 100%;
     color: white;
+    align-items: center;
+    justify-content: center;
 }
 .historia-first-section-container-img { 
-  background-color: var(--blue01);
+  height: 100%;
 }
 
 .historia-first-section-container-img img { 
-  width: 100%;
+  height: 100%;
 }
 .historia-first-section-container-text {
-  color: var(--blue01);
+  
 }
-
 
 .historia-first-section-container-text h1{
     text-align: left;
     margin:0;
+    color: var(--blue01);
+    font-weight: 900;
 }
 
 .historia-first-section-container-text h5{
     text-align: left;
     margin-top: 30px;
+    font-weight: 400;
+    max-width: 500px;
+    color: #000;
 }
 
 .historia-second-section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  background-color:var(--blue01);
+  width: 100%;
+  padding: 0 16px;
+}
+
+.historia-second-section .second-section-container {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+}
+
+.historia-second-section .second-section-container h1 { 
+  text-align: left;
 }
 
 .third-section-container{
@@ -51,12 +74,38 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .historia-third-section-container h1{
     text-align: center;
     color: var(--blue01);
     margin-bottom: 40px;
 }
+.conquistas-container-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+.conquistas-container-wrapper h1 {
+  color: var(--blue01);
+  margin-bottom: 40px;
+}
+.conquistas-images {
+  margin-bottom: 40px;
+}
+
+.conquistas-images ul {
+  display: flex;
+  width: 100%;
+}
+
+.conquistas-images li img{
+  width: 100%;
+}
+
 
 @media screen and (max-width: 768px) {
   h1{
@@ -75,13 +124,24 @@
     padding: 0;
     width: 100%;
     margin-bottom: 30px;
+    max-width: 500px;
+  }
+  .historia-container-img {
+    height: 200px;
   }
 
-  .historia-first-section-container-img { 
-    padding: 30px;
-    width: 100%;
+  .historia-second-section .second-section-container {
+    flex-direction: column;
+  } 
+
+  .historia-first-section-container-text h1{
+    text-align: center;
   }
 
+  .conquistas-images li {
+    width: 120px;
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 769px) { 
@@ -96,14 +156,34 @@
     color: var(--blue01);
     width: 60%;
     padding: 0 50px;
+    max-width: 700px;
   }
-
   .historia-container-img {
-    width: 40%;
+    height: 400px;
+  }
+  
+  .historia-first-section-container-text h1{
+    font-size: 70px;
+    line-height: 70px;
   }
 
-  .historia-first-section-container-img { 
-    padding: 50px;
-    width: 100%;
+  .historia-second-section .second-section-container {
+    padding: 0 100px;
+  }
+
+  .historia-second-section .second-section-container h1 { 
+    margin-left: 100px;
+  }
+
+  .historia-second-section .second-section-container h5 { 
+    max-width: 800px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .conquistas-images li {
+    width: 164px;
+    padding: 10px;
   }
 }

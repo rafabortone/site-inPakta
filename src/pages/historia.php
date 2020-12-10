@@ -5,7 +5,7 @@
       <?php include('historiaSections/first.php')?>
     </div>
 
-    <div class="historia-second-section container">
+    <div class="historia-second-section ">
       <?php include('historiaSections/second.php')?>
     </div>
 
@@ -14,3 +14,5 @@
     </div>
 
 </section>
+
+<script type="text/javascript" src="../scripts/historia.js"></script>
