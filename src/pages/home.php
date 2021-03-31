@@ -2,8 +2,10 @@
 <link rel="stylesheet" type="text/css" href="./styles/home.css">
 <section class="home-page">
 
-    <div class="first-section container" id="inpakta">
-        <?php include('homeSections/first.php')?>
+    <div class="first-section" id="inpakta">
+        <div class="container">
+            <?php include('homeSections/first.php')?>
+        </div>
     </div>
 
     <div class="second-section" id="missao">

@@ -12,6 +12,7 @@ body {
   margin: 0;
 	overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
+  --white:#ffffff;
   --blue01: #2f81f8;
   --blue02: #2bc6fc;
   --cyano01: #0fb3ce;

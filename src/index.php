@@ -22,7 +22,6 @@
 <body>
 
   <?php include('components/header.php')?>
-  <div class="ajuste-header"></div>
   
   <div class="index">
 
